@@ -17,5 +17,15 @@ class Solution:
         return result
 
 
-test = Solution()
-print(test.construct2DArray(original=[1, 2, 3, 4], m=2, n=2))
+if __name__ == "__main__":
+    s = Solution()
+
+    tests = [
+        ([1, 2, 3, 4], 2, 2),
+        ([1, 2, 3], 1, 3),
+    ]
+
+    for original, m, n in tests:
+        print("Input:", original, "m=", m, "n=", n)
+        print("Result:", s.construct2DArray(original=original, m=m, n=n))
+        print("-" * 30)
