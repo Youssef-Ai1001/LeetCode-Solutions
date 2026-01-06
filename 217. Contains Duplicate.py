@@ -15,3 +15,18 @@ class Solution:
                 return True
 
         return False
+
+
+if __name__ == "__main__":
+    s = Solution()
+
+    tests = [
+        [1, 2, 3, 1],
+        [1, 2, 3, 4],
+    ]
+
+    for t in tests:
+        nums = t.copy()
+        print("Input:", nums)
+        print("Result:", s.containsDuplicate(nums))
+        print("-" * 30)
