@@ -3,17 +3,33 @@ from typing import List
 class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
         
-####### Solution 1
-        even = []
-        odd = []
+######## Solution 1
+        # even = []
+        # odd = []
         
-        for num in nums:
-            if num % 2 == 0:
-                even.append(num)
-            elif num % 2 == 1:
-                odd.append(num)
-        return even + odd 
+        # for num in nums:
+        #     if num % 2 == 0:
+        #         even.append(num)
+        #     elif num % 2 == 1:
+        #         odd.append(num)
+        # return even + odd 
         
+        
+######## Solution 2
+        left = 0 
+        right = len(nums) - 1
+
+        while left < right:
+            if nums[left] % 2 == 0:
+                left += 1
+            elif nums[right] % 2 == 1:
+                right -= 1
+            else:
+                nums[left], nums[right] = nums[right], nums[left]
+                left += 1
+                right -= 1
+        return nums
+
 
 if __name__ == "__main__":
     solution = Solution()
