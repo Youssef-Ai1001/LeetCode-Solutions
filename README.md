@@ -1,64 +1,52 @@
-# LeetCode Solutions ✅
+# LeetCode Solutions
 
-A curated collection of clear, well-documented Python solutions to LeetCode problems. Each file contains a single solution with brief explanation and examples when applicable.
+A collection of LeetCode problem solutions implemented in Python, organized for technical interview preparation.
 
----
+## Problems by Category
 
-## Table of Contents
-- [About](#about)
-- [Repository Structure](#repository-structure)
-- [Requirements](#requirements)
-- [How to Run](#how-to-run)
-- [Adding / Contributing](#adding--contributing)
-- [Style & Testing](#style--testing)
-- [License](#license)
-- [Contact](#contact)
+### Arrays
 
----
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 26 | Remove Duplicates from Sorted Array | Easy |
+| 27 | Remove Element | Easy |
+| 88 | Merge Sorted Array | Easy |
+| 136 | Single Number | Easy |
+| 217 | Contains Duplicate | Easy |
+| 268 | Missing Number | Easy |
+| 283 | Move Zeroes | Easy |
+| 448 | Find All Numbers Disappeared in an Array | Easy |
+| 485 | Max Consecutive Ones | Easy |
+| 905 | Sort Array By Parity | Easy |
+| 941 | Valid Mountain Array | Easy |
+| 1089 | Duplicate Zeros | Easy |
+| 1299 | Replace Elements with Greatest Element on Right Side | Easy |
+| 1346 | Check If N and Its Double Exist | Easy |
+| 2022 | Convert 1D Array Into 2D Array | Easy |
 
-## About
-This repository contains LeetCode problem solutions implemented in Python. The goal is to provide readable, well-tested, and idiomatic solutions that can serve as references for learning and interview preparation.
+### SQL
 
-## Repository Structure
-- Solution files follow the naming pattern: `NNN. Problem Title.py` (e.g., `136. Single Number.py`).
-- Each file typically contains a function or class implementing the solution and a simple example or `if __name__ == "__main__"` block to demonstrate usage.
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 175 | Combine Two Tables | Easy |
 
-Example files in this repo:
-- `136. Single Number.py`
-- `217. Contains Duplicate.py`
-- `268. Missing Number.py`
-- `448. Find All Numbers Disappeared in an Array.py`
-- `2022. Convert 1D Array Into 2D Array.py`
+## Structure
 
-## Requirements
-- Python 3.8+ is recommended
-- (Optional) Use a virtual environment:
+Each solution file follows the naming convention: `[Problem Number]. [Problem Title].py`
 
-## How to Run
-Run a solution file directly with Python:
+Solutions include:
+- Clean, readable implementations
+- Type hints
+- Test cases with assertions
+
+## Usage
+
+Run any solution file directly:
 
 ```bash
 python "136. Single Number.py"
 ```
 
-## Adding / Contributing
-Contributions are welcome. When adding a new solution:
-1. Add a new file following the naming convention `NNN. Problem Title.py`.
-2. Include a short description of your approach in a comment at the top of the file.
-3. Optionally add a small example in an `if __name__ == "__main__":` block.
-
-## Style & Testing
-- Keep solutions concise and readable.
-- Prefer built-in data structures and standard library functions for clarity.
-- Use type hints where helpful and include a brief complexity analysis when possible.
-
 ## License
-This project is distributed under the **MIT License**.  
-See the `LICENSE` file in this repository for full details.
 
-## Contact
-Maintainer: `@Youssef-Ai1001`
-
----
-
-Happy coding! 💡
+MIT License - See LICENSE file for details.
