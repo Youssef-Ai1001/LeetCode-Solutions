@@ -19,6 +19,7 @@ A collection of LeetCode problem solutions implemented in Python, organized for 
 | 485 | Max Consecutive Ones | Easy |
 | 905 | Sort Array By Parity | Easy |
 | 941 | Valid Mountain Array | Easy |
+| 1051 | Height Checker | Easy |
 | 1089 | Duplicate Zeros | Easy |
 | 1299 | Replace Elements with Greatest Element on Right Side | Easy |
 | 1346 | Check If N and Its Double Exist | Easy |
