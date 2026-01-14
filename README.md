@@ -18,6 +18,7 @@ A collection of LeetCode problem solutions implemented in Python, organized for 
 | 448 | Find All Numbers Disappeared in an Array | Easy |
 | 485 | Max Consecutive Ones | Easy |
 | 414 | Third Maximum Number | Easy |
+| 977 | Squares of a Sorted Array | Easy |
 | 905 | Sort Array By Parity | Easy |
 | 941 | Valid Mountain Array | Easy |
 | 1051 | Height Checker | Easy |
