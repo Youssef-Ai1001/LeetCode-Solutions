@@ -7,15 +7,28 @@ class Solution:
         Do not return anything, modify s in-place instead.
         """
 ######## Solution 1 (Two Pointer)
-        l = 0
-        r = len(s) - 1
+        # l = 0
+        # r = len(s) - 1
 
-        while l < r:
-            s[l], s[r] = s[r], s[l]  # Swap
-            l += 1
-            r -= 1
+        # while l < r:
+        #     s[l], s[r] = s[r], s[l]  # Swap
+        #     l += 1
+        #     r -= 1
 
+######## Solution 2 (Recursion)
+        def reverse(l, r):
+            # Base Case
+            if l >= r:
+                return
+            
+            # Swap
+            s[l], s[r] = s[r], s[l]
+            
+            # Recursive Call
+            reverse(l + 1, r - 1)
 
+        # Initial call
+        reverse(0, len(s) - 1)
 
 # Test Cases
 if __name__ == "__main__":
