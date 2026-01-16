@@ -27,6 +27,12 @@ A collection of LeetCode problem solutions implemented in Python, organized for 
 | 1346 | Check If N and Its Double Exist | Easy |
 | 2022 | Convert 1D Array Into 2D Array | Easy |
 
+### Math
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 69 | Sqrt(x) | Easy |
+
 ### SQL
 
 | # | Problem | Difficulty |
