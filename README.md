@@ -8,6 +8,7 @@ A collection of LeetCode problem solutions implemented in Python, organized for 
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 1 | Two Sum | Easy |
 | 26 | Remove Duplicates from Sorted Array | Easy |
 | 27 | Remove Element | Easy |
 | 88 | Merge Sorted Array | Easy |
