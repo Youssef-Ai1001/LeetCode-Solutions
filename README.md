@@ -34,6 +34,12 @@ A collection of LeetCode problem solutions implemented in Python, organized for 
 |---|---------|------------|
 | 69 | Sqrt(x) | Easy |
 
+### Strings
+
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 844 | Backspace String Compare | Easy |
+
 ### SQL
 
 | # | Problem | Difficulty |
