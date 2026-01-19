@@ -38,6 +38,7 @@ A collection of LeetCode problem solutions implemented in Python, organized for 
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 392 | Is Subsequence | Easy |
 | 844 | Backspace String Compare | Easy |
 
 ### SQL
